@@ -15,7 +15,7 @@ Karya web application framework base on Codeigniter MVC architecture.
 I've make this project available to install via [Composer](https://getcomposer.org/) with following command:
 
 ```bash
-$ composer create-project karyamedia/karya your-app-name
+$ composer create-project -s stable karyamedia/karya your-app-name
 ```
 
 **NOTE**: Make sure your Redis server already running.
