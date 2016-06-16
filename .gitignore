@@ -1,4 +1,5 @@
 .DS_Store
+composer.lock
 
 app/cache/*
 !app/cache/index.html

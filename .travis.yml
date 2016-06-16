@@ -33,7 +33,8 @@ matrix:
     - php: hhvm
 # execute any number of scripts before the test run, custom env's are available as variables
 before_script:
-  - phpenv global 5.4
+  - phpenv global 5.5.9
+  - composer self-update
   - composer install
   - composer update
   - if [[ "$DB" == "pgsql" ]]; then psql -c "DROP DATABASE IF EXISTS hello_world_test;" -U postgres; fi
