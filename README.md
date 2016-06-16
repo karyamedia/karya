@@ -1,7 +1,8 @@
 # Karya
 
-[![Build Status](https://travis-ci.org/karyamedia/karya.svg?branch=master)](https://travis-ci.org/karyamedia/karya)
+[![Build Status](https://snap-ci.com/karyamedia/karya/branch/master/build_image)](https://snap-ci.com/karyamedia/karya/branch/master)
 [![Build Status](https://codeship.com/projects/92eb5110-15b3-0134-0523-667ff3898a5e/status?branch=master)](https://codeship.com/projects/158153)
+[![Build Status](https://img.shields.io/packagist/karyamedia/karya/orm.svg?maxAge=2592000)](https://packagist.org/packages/karyamedia/karya)
 
 Karya web application framework base on Codeigniter MVC architecture.
 
