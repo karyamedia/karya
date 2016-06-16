@@ -26,6 +26,11 @@
         "issues": "https://github.com/karyamedia/karya/issues",
         "source": "https://github.com/karyamedia/karya"
     },
+    "scripts": {
+        "post-install-cmd": [
+            "npm install"
+        ]
+    },
     "require": {
         "php": ">=5.4.0",
         "codeigniter/framework": "^3.0",
