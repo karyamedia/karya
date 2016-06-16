@@ -1,0 +1,3 @@
+[submodule "app/third_party/codeigniter-forensics"]
+	path = app/third_party/codeigniter-forensics
+	url = ../../lonnieezell/codeigniter-forensics.git
