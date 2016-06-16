@@ -1,0 +1,52 @@
+{
+    "name": "karyamedia/karya",
+    "description": "Karya web application framework base on Codeigniter MVC architecture.",
+    "homepage": "https://github.com/karyamedia/karya",
+    "type": "project",
+    "license": "MIT",
+    "keywords": [
+        "karya", "codeigniter", "starter-kit", "project", "skeleton"
+    ],
+    "authors": [
+        {
+            "name": "Saiful Nizam Nordin",
+            "email": "nizam@karyamedia.net",
+            "homepage": "https://github.com/karyamedia/karya",
+            "role": "Senior Developer"
+        },
+        {
+            "name": "Hafidzul Amin Zulkifli",
+            "email": "hafidzul.amin@karyamedia.net",
+            "homepage": "https://github.com/karyamedia/karya",
+            "role": "Senior Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/karyamedia/karya/issues",
+        "source": "https://github.com/karyamedia/karya/flarum"
+    },
+    "extra": {
+        "codeigniter-application-dir": "app"
+    },
+    "scripts": {
+        "post-create-project-cmd": "php app/cli install"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "codeigniter/framework": "^3.0",
+        "vlucas/phpdotenv": "^2.2",
+        "lonnieezell/codeigniter-forensics": "dev-master",
+        "monolog/monolog": "^1.18",
+        "illuminate/database": "^5.2",
+        "nesbot/carbon": "^1.21",
+        "nette/mail": "^2.3",
+        "sparkpost/php-sparkpost": "^1.1",
+        "smarty/smarty": "^3.1",
+        "phpunit/phpunit": "^5.4"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "kenjis/ci-phpunit-test": "^0.12.1"
+    }
+}
