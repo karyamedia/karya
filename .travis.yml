@@ -34,10 +34,8 @@ matrix:
 # execute any number of scripts before the test run, custom env's are available as variables
 before_script:
   - phpenv global 5.4
-  - rm -f ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/xdebug.ini
-  - flags="--prefer-dist"
-  - composer install $flags
-  - bin/composer install $flags
+  - composer install
+  - composer update
   - if [[ "$DB" == "pgsql" ]]; then psql -c "DROP DATABASE IF EXISTS hello_world_test;" -U postgres; fi
   - if [[ "$DB" == "pgsql" ]]; then psql -c "create database hello_world_test;" -U postgres; fi
   - if [[ "$DB" == "mysql" ]]; then mysql -e "create database IF NOT EXISTS hello_world_test;" -uroot; fi
