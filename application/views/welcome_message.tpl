@@ -64,6 +64,12 @@
 		border: 1px solid #D0D0D0;
 		box-shadow: 0 0 8px #D0D0D0;
 	}
+
+	.logo {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
 	</style>
 	{/literal}
 </head>
@@ -72,7 +78,7 @@
 <div id="container">
 
 	<div id="body">
-		<img src="assets/img/logo.png" width="260px">
+		<img class="logo" src="assets/img/logo.png">
 	</div>
 
 	<p class="footer"> 
