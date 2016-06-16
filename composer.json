@@ -45,7 +45,6 @@
         "smarty/smarty": "^3.1",
         "phpunit/phpunit": "^5.4"
     },
-    "minimum-stability": "dev",
     "prefer-stable": true,
     "require-dev": {
         "kenjis/ci-phpunit-test": "^0.12.1"
