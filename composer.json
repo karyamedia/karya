@@ -12,22 +12,19 @@
         {
             "name": "Saiful Nizam Nordin",
             "email": "nizam@karyamedia.net",
-            "homepage": "https://github.com/karyamedia/karya",
+            "homepage": "https://github.com/aa6my",
             "role": "Senior Developer"
         },
         {
             "name": "Hafidzul Amin Zulkifli",
             "email": "hafidzul.amin@karyamedia.net",
-            "homepage": "https://github.com/karyamedia/karya",
+            "homepage": "https://github.com/pijoe86",
             "role": "Senior Developer"
         }
     ],
     "support": {
         "issues": "https://github.com/karyamedia/karya/issues",
-        "source": "https://github.com/karyamedia/karya/flarum"
-    },
-    "extra": {
-        "codeigniter-application-dir": "app"
+        "source": "https://github.com/karyamedia/karya"
     },
     "require": {
         "php": ">=5.4.0",
