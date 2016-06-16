@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<phpunit bootstrap="Tests/bootstrap.php" colors="true">
+<phpunit bootstrap="application/tests/bootstrap.php" colors="true">
     <php>
         <var name="db_dsn" value="mysql:dbname=hello_world_test;host=localhost"/>
         <var name="db_username" value="root"/>
@@ -9,15 +9,15 @@
 
     <testsuites>
         <testsuite name="Hello World Test Suite">
-            <directory>./Tests/</directory>
+            <directory>./application/tests/</directory>
         </testsuite>
     </testsuites>
 
     <filter>
         <whitelist>
-            <directory>./</directory>
+            <directory>./application/</directory>
             <exclude>
-                <directory>./Tests</directory>
+                <directory>./application/tests</directory>
             </exclude>
         </whitelist>
     </filter>
