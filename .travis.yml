@@ -1,5 +1,4 @@
 language: php
-install: composer install --dev
 # list any PHP version you want to test against
 php:
   # using major version aliases
@@ -34,6 +33,7 @@ matrix:
     - php: hhvm
 # execute any number of scripts before the test run, custom env's are available as variables
 before_script:
+  - rm -f ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/xdebug.ini
   - flags="--prefer-dist"
   - composer install $flags
   - bin/composer install $flags
