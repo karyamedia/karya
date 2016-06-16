@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/karyamedia/karya.svg?branch=master)](https://travis-ci.org/karyamedia/karya)
 [![Build Status](https://codeship.com/projects/92eb5110-15b3-0134-0523-667ff3898a5e/status?branch=master)](https://codeship.com/projects/158153)
+
 Karya web application framework base on Codeigniter MVC architecture.
 
 **NOTE**: This project is used for Karyamedia projects, but feel free to use it as yours.
