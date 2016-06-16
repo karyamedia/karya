@@ -1,6 +1,6 @@
 # Karya
 
-![Alt text](/../master/assets/img/logo.png?raw=true =250x "Karyamedia")
+![Alt text](/../master/karya.png?raw=true "Karyamedia")
 
 [![Build Status](https://snap-ci.com/karyamedia/karya/branch/master/build_image)](https://snap-ci.com/karyamedia/karya/branch/master)
 [![Build Status](https://codeship.com/projects/92eb5110-15b3-0134-0523-667ff3898a5e/status?branch=master)](https://codeship.com/projects/158153)
