@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+<?php
+/**
+ * Make controller/cli as default route for CLI ;)
+ */
+$self = array_shift($_SERVER['argv']);
+array_unshift($_SERVER['argv'], $self, 'common', 'cli', 'index');
+/**
+ * Require the main karya bootstrap file
+ */
+return require realpath(__DIR__ . '/../index.php');
