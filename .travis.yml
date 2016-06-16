@@ -33,7 +33,7 @@ matrix:
     - php: 7.0
     - php: hhvm
 # require composer
-before_install:
+install:
   - composer require codeigniter/framework
 # execute any number of scripts before the test run, custom env's are available as variables
 before_script:
