@@ -30,7 +30,10 @@
         "codeigniter-application-dir": "app"
     },
     "scripts": {
-        "post-create-project-cmd": "php app/cli install"
+        "post-create-project-cmd": "php app/cli install",
+        "post-install-cmd": [
+            "cp application/.env.example application/.env"
+        ]
     },
     "require": {
         "php": ">=5.4.0",
