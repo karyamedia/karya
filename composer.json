@@ -1,6 +1,6 @@
 {
     "name": "karyamedia/karya",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "description": "Karya web application framework base on Codeigniter MVC architecture.",
     "homepage": "https://github.com/karyamedia/karya",
     "type": "project",
