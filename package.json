@@ -10,7 +10,8 @@
     "gulp": "^3.9.1"
   },
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp",
+    "gulp" : "gulp"
   },
   "repository": {
     "type": "git",
