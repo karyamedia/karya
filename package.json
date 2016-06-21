@@ -6,9 +6,11 @@
   "dependencies": {
     "sweetalert": "^1.1.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
@@ -22,18 +24,18 @@
     "skeleton"
   ],
   "authors": [
-      {
-          "name": "Saiful Nizam Nordin",
-          "email": "nizam@karyamedia.net",
-          "homepage": "https://github.com/aa6my",
-          "role": "Senior Developer"
-      },
-      {
-          "name": "Hafidzul Amin Zulkifli",
-          "email": "hafidzul.amin@karyamedia.net",
-          "homepage": "https://github.com/pijoe86",
-          "role": "Senior Developer"
-      }
+    {
+      "name": "Saiful Nizam Nordin",
+      "email": "nizam@karyamedia.net",
+      "homepage": "https://github.com/aa6my",
+      "role": "Senior Developer"
+    },
+    {
+      "name": "Hafidzul Amin Zulkifli",
+      "email": "hafidzul.amin@karyamedia.net",
+      "homepage": "https://github.com/pijoe86",
+      "role": "Senior Developer"
+    }
   ],
   "license": "MIT",
   "bugs": {
